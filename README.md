@@ -6,11 +6,17 @@
 
 - Python version 3
 
-- pip or pipenv
+- pip
 
 ## Usage
 
-To run test:
+Install dependencies first:
+
+```shell
+pip install -r requirements.txt
+```
+
+Then, to run test:
 
 ```shell
 make test
